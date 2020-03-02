@@ -1,0 +1,25 @@
+.wrapper {
+  .backgroundImage {
+    background-color: black;
+    position: relative;
+  }
+  .content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .backgroundImage {
+    div {
+      min-height: 900px !important;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .backgroundImage {
+    div {
+      min-height: 700px !important;
+    }
+  }
+}
