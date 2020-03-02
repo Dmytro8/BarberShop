@@ -1,0 +1,61 @@
+@import "../../styles/_vars.scss";
+
+.bgServices {
+  .services {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    .container {
+      width: 40vw;
+      color: $accent-color;
+      margin-left: 20px;
+      .servicesContainer {
+        display: grid;
+        gap: 30px;
+        margin: -170px 0 150px 0;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 50vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .bgServices {
+    .container {
+      width: 80vw !important;
+      .sectionTitle {
+        margin-top: 100px !important;
+      }
+      .servicesContainer {
+        gap: 30px !important;
+        margin: -170px 0 100px 0 !important;
+      }
+    }
+  }
+}
+@media (max-width: 520px) {
+  .bgServices {
+    .container {
+      width: 80vw !important;
+
+      .servicesContainer {
+        margin: -100px 0 100px 0 !important;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .bgServices {
+    .container {
+      width: 80vw !important;
+
+      .servicesContainer {
+        gap: 10px !important;
+        margin: -70px 0 60px 0 !important;
+      }
+    }
+  }
+}
