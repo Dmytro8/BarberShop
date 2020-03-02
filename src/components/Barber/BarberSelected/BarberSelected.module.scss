@@ -1,0 +1,97 @@
+@import "../../../styles/_vars.scss";
+
+.selectedBarber {
+  display: grid;
+
+  h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $accent-color;
+  }
+  a {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: $accent-color;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .barberWrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    .barberImg {
+      border: 2px solid #dbbd9c;
+      display: grid;
+      align-content: flex-end;
+      justify-content: center;
+    }
+    .barberInfo {
+      display: grid;
+      grid-template-rows: 3fr 2fr 2fr;
+      .barberName {
+        border: 2px solid #dbbd9c;
+        border-left: none;
+        display: grid;
+        align-content: center;
+        padding-left: 40px;
+      }
+      .instagramLink {
+        border: 2px solid #dbbd9c;
+        border-left: none;
+        border-top: none;
+        display: grid;
+        align-content: center;
+        padding-left: 40px;
+      }
+      .bookOnline {
+        border-right: 2px solid #dbbd9c;
+        border-bottom: 2px solid #dbbd9c;
+        display: grid;
+        align-content: center;
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .selectedBarber {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 700px) {
+  .selectedBarber {
+    .barberWrapper {
+      grid-template-columns: 1fr !important;
+      .barberImg {
+        border-bottom: none;
+      }
+      .barberInfo {
+        .barberName {
+          border-left: 2px solid #dbbd9c !important;
+        }
+        .instagramLink {
+          border-left: 2px solid #dbbd9c !important;
+        }
+        .bookOnline {
+          border-left: 2px solid #dbbd9c !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 520px) {
+  .barberImg {
+    width: 80vw;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .barberImg {
+    width: 80vw;
+  }
+}
