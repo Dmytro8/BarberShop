@@ -1,0 +1,50 @@
+@import "../../styles/_vars.scss";
+
+.barber {
+  width: 250px;
+  height: 300px;
+  display: grid;
+  justify-self: center;
+  .imgWrapper {
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+  }
+  .barberImg {
+    transition: opacity 0.4s;
+    img {
+      width: 100%;
+    }
+  }
+  .selectedBarber {
+    opacity: 1;
+  }
+  .notSelectedBarber {
+    opacity: 0.6;
+  }
+
+  .barberName {
+    text-align: center;
+    color: $accent-color;
+  }
+}
+
+@media (min-width: 1100px) {
+  .imgWrapper {
+    :hover {
+      opacity: 0.9;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .barberImg {
+    transition: none !important;
+  }
+}
+@media (max-width: 520px) {
+  .barberImg {
+    img {
+      width: 100%;
+    }
+  }
+}
