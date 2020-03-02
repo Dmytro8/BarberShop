@@ -1,0 +1,187 @@
+.about {
+  display: grid;
+  justify-content: center;
+  .logo {
+    width: 450px;
+    img {
+      width: 100%;
+    }
+  }
+  .logoString {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    .logoLink {
+      text-transform: uppercase;
+      font-size: 2rem;
+      display: grid;
+      color: white;
+      width: fit-content;
+      padding-left: 13px;
+      .logoName {
+        line-height: 35px;
+      }
+      .topLogo {
+        letter-spacing: 2px;
+      }
+      .bottomLogo {
+        letter-spacing: 13px;
+      }
+    }
+  }
+  .wrapperLogo {
+    display: grid;
+    justify-content: center;
+  }
+  .league {
+    display: grid;
+    justify-content: center;
+    margin: -50px 40px 0 40px;
+    z-index: 1;
+    h1 {
+      color: white;
+      font-size: 40px;
+      text-transform: uppercase;
+      letter-spacing: 12px;
+    }
+  }
+  .leagueUndreline {
+    display: grid;
+    justify-content: center;
+    // margin-top: -240px;
+    div {
+      margin-top: -240px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .gentelemen {
+    display: grid;
+    justify-content: center;
+    margin-top: -200px;
+    height: 240px;
+    color: #60351b;
+    div:nth-child(1) {
+      display: grid;
+      justify-content: center;
+      h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+    }
+    div:nth-child(2) {
+      h3 {
+        font-size: 26px;
+        .sideLine {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .gentelemen {
+    height: 140px !important;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 380px !important;
+  }
+  .league {
+    h1 {
+      font-size: 30px !important;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .league {
+    margin-top: -10px !important;
+    h1 {
+      font-size: 25px !important;
+
+      letter-spacing: 6px !important;
+    }
+  }
+  .leagueUndreline div {
+    width: 380px !important;
+    margin-top: -180px !important;
+  }
+  .gentelemen {
+    margin-top: -140px !important;
+
+    height: 100px !important;
+    div:nth-child(1) {
+      h3 {
+        color: white !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    width: 340px !important;
+  }
+  .league {
+    margin-top: -10px !important;
+    h1 {
+      font-size: 26px !important;
+      letter-spacing: 6px !important;
+    }
+  }
+  .leagueUndreline div {
+    width: 330px !important;
+    margin-top: -155px !important;
+  }
+  .gentelemen {
+    margin-top: -140px !important;
+    div:nth-child(1) {
+      h3 {
+        color: white !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    width: 280px !important;
+  }
+  .logoLink {
+    font-size: 20px !important;
+    .logoName {
+      line-height: 20px !important;
+    }
+    .bottomLogo {
+      letter-spacing: 10px !important;
+    }
+  }
+  .league {
+    h1 {
+      font-size: 20px !important;
+      letter-spacing: 6px !important;
+    }
+  }
+  .leagueUndreline div {
+    width: 300px !important;
+    margin-top: -140px !important;
+  }
+  .gentelemen {
+    margin-top: -110px !important;
+    div:nth-child(1) {
+      h3 {
+        color: white !important;
+        font-size: 18px !important;
+      }
+    }
+    div:nth-child(2) {
+      h3 {
+        font-size: 24px !important;
+      }
+    }
+  }
+}
