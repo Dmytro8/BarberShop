@@ -90,7 +90,15 @@ export const SideDrawer = () => {
               </Link>
             </li>
             <li className={classes.navItem}>
-              <a href="/">Contact</a>
+              <Link
+                className={classes.navItem}
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
           <ul className={`${classes.menu} ${classes.subMenu}`}>
