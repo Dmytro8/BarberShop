@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/BarberShop/static/css/main.310824fa.chunk.css",
-    "main.js": "/BarberShop/static/js/main.eaf8c5be.chunk.js",
-    "main.js.map": "/BarberShop/static/js/main.eaf8c5be.chunk.js.map",
+    "main.css": "/BarberShop/static/css/main.eb5d1160.chunk.css",
+    "main.js": "/BarberShop/static/js/main.83c66a15.chunk.js",
+    "main.js.map": "/BarberShop/static/js/main.83c66a15.chunk.js.map",
     "runtime-main.js": "/BarberShop/static/js/runtime-main.ae5a4343.js",
     "runtime-main.js.map": "/BarberShop/static/js/runtime-main.ae5a4343.js.map",
-    "static/js/2.557af0ea.chunk.js": "/BarberShop/static/js/2.557af0ea.chunk.js",
-    "static/js/2.557af0ea.chunk.js.map": "/BarberShop/static/js/2.557af0ea.chunk.js.map",
+    "static/css/2.fc62fcb7.chunk.css": "/BarberShop/static/css/2.fc62fcb7.chunk.css",
+    "static/js/2.bca83e36.chunk.js": "/BarberShop/static/js/2.bca83e36.chunk.js",
+    "static/js/2.bca83e36.chunk.js.map": "/BarberShop/static/js/2.bca83e36.chunk.js.map",
     "index.html": "/BarberShop/index.html",
-    "precache-manifest.01ef965261a5efd0c4e56f5fdaf9587d.js": "/BarberShop/precache-manifest.01ef965261a5efd0c4e56f5fdaf9587d.js",
+    "precache-manifest.8553759cf3fada8129e21f198499b427.js": "/BarberShop/precache-manifest.8553759cf3fada8129e21f198499b427.js",
     "service-worker.js": "/BarberShop/service-worker.js",
-    "static/css/main.310824fa.chunk.css.map": "/BarberShop/static/css/main.310824fa.chunk.css.map",
-    "static/js/2.557af0ea.chunk.js.LICENSE.txt": "/BarberShop/static/js/2.557af0ea.chunk.js.LICENSE.txt",
+    "static/css/2.fc62fcb7.chunk.css.map": "/BarberShop/static/css/2.fc62fcb7.chunk.css.map",
+    "static/css/main.eb5d1160.chunk.css.map": "/BarberShop/static/css/main.eb5d1160.chunk.css.map",
+    "static/js/2.bca83e36.chunk.js.LICENSE.txt": "/BarberShop/static/js/2.bca83e36.chunk.js.LICENSE.txt",
     "static/media/barber.png": "/BarberShop/static/media/barber.26b8df0d.png",
     "static/media/bgBarbers.jpg": "/BarberShop/static/media/bgBarbers.ad256565.jpg",
     "static/media/bgServices-desktop.jpg": "/BarberShop/static/media/bgServices-desktop.7584a807.jpg",
     "static/media/bg_general.jpg": "/BarberShop/static/media/bg_general.da8e7fe5.jpg",
     "static/media/bg_side_drawer.jpg": "/BarberShop/static/media/bg_side_drawer.033f901b.jpg",
     "static/media/empire.svg": "/BarberShop/static/media/empire.c6b4ebcf.svg",
-    "static/media/logo.png": "/BarberShop/static/media/logo.8ac1d3f1.png"
+    "static/media/gallery_img_1.jpg": "/BarberShop/static/media/gallery_img_1.eedd376c.jpg",
+    "static/media/gallery_img_2.jpg": "/BarberShop/static/media/gallery_img_2.aaf19ea4.jpg",
+    "static/media/gallery_img_3.jpg": "/BarberShop/static/media/gallery_img_3.fe0db12d.jpg",
+    "static/media/gallery_img_4.jpg": "/BarberShop/static/media/gallery_img_4.fed56333.jpg",
+    "static/media/gallery_img_5.jpg": "/BarberShop/static/media/gallery_img_5.dfd27582.jpg",
+    "static/media/gallery_img_6.jpg": "/BarberShop/static/media/gallery_img_6.e16e370f.jpg",
+    "static/media/gallery_img_7.jpg": "/BarberShop/static/media/gallery_img_7.8a56248d.jpg",
+    "static/media/logo.png": "/BarberShop/static/media/logo.8ac1d3f1.png",
+    "static/media/slick-theme.css": "/BarberShop/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae5a4343.js",
-    "static/js/2.557af0ea.chunk.js",
-    "static/css/main.310824fa.chunk.css",
-    "static/js/main.eaf8c5be.chunk.js"
+    "static/css/2.fc62fcb7.chunk.css",
+    "static/js/2.bca83e36.chunk.js",
+    "static/css/main.eb5d1160.chunk.css",
+    "static/js/main.83c66a15.chunk.js"
   ]
 }
