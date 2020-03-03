@@ -18,12 +18,12 @@ export const App = () => {
   };
 
   return (
-    <div className="App">
+    <main className="App">
       <div className="borderRight" style={bgBorderLeftStyle}></div>
       <GeneralSection />
       <ServicesSectionContainer />
       <BarbersSectionContainer />
       <GallerySection />
-    </div>
+    </main>
   );
 };
