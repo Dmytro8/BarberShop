@@ -7,6 +7,7 @@ import { ServicesSectionContainer } from "../containers/ServicesSectionContainer
 import { BarbersSectionContainer } from "../containers/BarbersSectionContainer";
 import { GallerySection } from "../sections/GallerySection";
 import { ContactSection } from "../sections/ContactSection";
+import { MapSection } from "../sections/MapSection";
 
 export const App = () => {
   let bgBorderLeftStyle = {
@@ -26,6 +27,7 @@ export const App = () => {
       <BarbersSectionContainer />
       <GallerySection />
       <ContactSection />
+      <MapSection />
     </main>
   );
 };

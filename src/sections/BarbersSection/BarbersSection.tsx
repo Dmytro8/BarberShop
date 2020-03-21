@@ -27,7 +27,7 @@ export const BarbersSection: FC<PropsType> = ({
       style={bgBarbersStyle}
     >
       <div className={classes.wrapper}>
-        <SectionTitle title={"barbers"} />
+        <SectionTitle title={"barbers"} isOrnamentWhite={false} />
         <div className={classes.barbers}>{setBarbers()}</div>
         <BarberSelected name={selectedBarber} />
       </div>

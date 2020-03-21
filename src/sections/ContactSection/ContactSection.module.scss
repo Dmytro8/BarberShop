@@ -1,0 +1,90 @@
+@import "../../styles/vars.scss";
+.wrapper {
+  display: grid;
+  justify-content: center;
+  color: #ffffff;
+  .contactContainer {
+    margin: -170px 40px 150px 40px;
+    letter-spacing: 2px;
+    h2 {
+      text-transform: uppercase;
+      font-size: 30px;
+      text-align: center;
+    }
+    h4 {
+      color: #e7e7e7;
+      text-align: center;
+      font-size: 26px;
+    }
+    .contactLocation {
+      p {
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+    .openHours {
+      display: grid;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .contactCards {
+      display: grid;
+      justify-content: center;
+      .contactCard {
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 20px 30px;
+        margin: 10px 0;
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+        i {
+          font-size: 20px;
+        }
+        h3 {
+          text-transform: uppercase;
+          font-size: 20px;
+          color: #e7e7e7;
+        }
+        h4 {
+          font-size: 30px;
+        }
+        > * {
+          display: block;
+          text-align: center;
+        }
+      }
+      .contactCard:focus {
+        color: white;
+      }
+    }
+    .getInTouch {
+      margin-top: 40px;
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    .contactContainer {
+      .contactLocation {
+        margin-top: 100px;
+      }
+      .contactCards {
+        .contactCard {
+          padding: 10px 20px !important;
+        }
+        h3 {
+          font-size: 15px !important;
+        }
+        h4 {
+          font-size: 25px !important;
+        }
+      }
+    }
+  }
+}

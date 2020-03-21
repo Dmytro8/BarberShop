@@ -43,7 +43,7 @@ export const ServicesSection = ({ services }: InitialServicesStateType) => {
     >
       <div className={classes.services}>
         <div className={classes.container}>
-          <SectionTitle title={"services"} />
+          <SectionTitle title={"services"} isOrnamentWhite={false} />
           <div className={classes.servicesContainer}>{setServices()}</div>
         </div>
       </div>
