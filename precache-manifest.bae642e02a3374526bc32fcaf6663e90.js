@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "629c9fd4765be3ef13d1d9023c78741b",
+    "revision": "e60ed13b66cbf4a0d76b1fd767d16b8c",
     "url": "/BarberShop/index.html"
   },
   {
-    "revision": "0fcf95317027d32a8062",
+    "revision": "61d03841189f4d6e71a0",
     "url": "/BarberShop/static/css/2.fc62fcb7.chunk.css"
   },
   {
-    "revision": "e62199473310e203c950",
-    "url": "/BarberShop/static/css/main.eb5d1160.chunk.css"
+    "revision": "3a391c1bf5606fb2cecb",
+    "url": "/BarberShop/static/css/main.7a93b6b2.chunk.css"
   },
   {
-    "revision": "0fcf95317027d32a8062",
-    "url": "/BarberShop/static/js/2.bca83e36.chunk.js"
+    "revision": "61d03841189f4d6e71a0",
+    "url": "/BarberShop/static/js/2.23989513.chunk.js"
   },
   {
-    "revision": "b7ee6e442ef8f016d50ad4f9cb84c08a",
-    "url": "/BarberShop/static/js/2.bca83e36.chunk.js.LICENSE.txt"
+    "revision": "7166b07c89729dc8a2ea1dd788c4d65a",
+    "url": "/BarberShop/static/js/2.23989513.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e62199473310e203c950",
-    "url": "/BarberShop/static/js/main.83c66a15.chunk.js"
+    "revision": "3a391c1bf5606fb2cecb",
+    "url": "/BarberShop/static/js/main.5b6e675a.chunk.js"
   },
   {
     "revision": "95c38d97daa95fa519ce",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad256565629f5efe45d66ec959a49dfa",
     "url": "/BarberShop/static/media/bgBarbers.ad256565.jpg"
+  },
+  {
+    "revision": "714e7dc9054734da4a8ea3e2b879a27d",
+    "url": "/BarberShop/static/media/bgContact.714e7dc9.jpg"
+  },
+  {
+    "revision": "5f0ecc8e238106ce3568771220933ebd",
+    "url": "/BarberShop/static/media/bgContact1.5f0ecc8e.jpg"
   },
   {
     "revision": "7584a807d29dfe1f38ae6814adb36452",
